@@ -38,8 +38,8 @@ return `<button>share</button><p class="result"></p>`
     }
 }
 new Share({
-    title : window.document.title,
+    title : "Facts | Voofacts",
     text : "web share api trail 1 is successfull",
-    url : "https://voofacts.com"
+    url : "https://facts.voofacts.com"
 })
 {/* <p>title is ${this.title}</p><p>text is ${this.text}</p><p><a href=${this.url} >url</a></p> */}
